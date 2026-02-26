@@ -13,7 +13,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/thinkgos/carp"
 	"github.com/thinkgos/carp/utils"
-	"github.com/thinkgos/gin-rest-kit/cmd/gin-gen/util"
+	"github.com/thinkgos/proc-kit/cmd/gin-gen/util"
 )
 
 type dalOpt struct {

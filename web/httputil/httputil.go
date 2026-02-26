@@ -1,9 +1,9 @@
 package httputil
 
-type Response struct {
+type Response[T any] struct {
 	Code    int    `json:"code"`
 	Msg     string `json:"msg"`
 	TraceId string `json:"traceId,omitempty"`
 	Detail  string `json:"detail,omitempty"`
-	Data    any    `json:"data"`
+	Data    T      `json:"data"`
 }

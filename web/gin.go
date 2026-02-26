@@ -10,6 +10,7 @@ import (
 func init() {
 	gin.DisableBindValidation()
 }
+
 func Handler[T, R any](handle func(context.Context, *T) (*R, error)) gin.HandlerFunc {
 	var t T
 	bsize := unsafe.Sizeof(t)

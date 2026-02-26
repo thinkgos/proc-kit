@@ -1,4 +1,4 @@
-package webmid
+package mid
 
 import "github.com/gin-gonic/gin"
 

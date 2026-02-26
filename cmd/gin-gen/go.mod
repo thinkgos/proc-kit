@@ -1,4 +1,4 @@
-module github.com/thinkgos/gin-rest-kit/cmd/gin-gen
+module github.com/thinkgos/proc-kit/cmd/gin-gen
 
 go 1.25
 

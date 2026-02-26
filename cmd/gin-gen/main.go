@@ -4,7 +4,7 @@ import (
 	"os"
 
 	_ "github.com/thinkgos/carp/driver/mysql"
-	"github.com/thinkgos/gin-rest-kit/cmd/gin-gen/command"
+	"github.com/thinkgos/proc-kit/cmd/gin-gen/command"
 )
 
 func main() {
