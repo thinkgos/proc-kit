@@ -6,8 +6,8 @@ require (
 	github.com/alibabacloud-go/dysmsapi-20170525/v5 v5.6.0
 	github.com/mojocn/base64Captcha v1.3.8
 	github.com/oschwald/geoip2-golang/v2 v2.3.0
-	github.com/thinkgos/proc v0.0.0-20260823080946-f6a2012d0acd
-	github.com/thinkgos/proc-extra v0.0.0-20260831092759-088e677eb1e0
+	github.com/thinkgos/proc v0.0.0-20260827222246-13bf8c3d121e
+	github.com/thinkgos/proc-extra v0.0.0-20260903010143-e79e06497c0d
 	golang.org/x/sync v0.22.0
 )
 

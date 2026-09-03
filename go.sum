@@ -128,10 +128,10 @@ github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXl
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
 github.com/stretchr/testify v1.12.1 h1:EuwCh5fleGS7H32xRwO3wRGT7DxrDhLAT6FF8MpWDWE=
 github.com/stretchr/testify v1.12.1/go.mod h1:MDEgiDPPsNp5cuIrHPPCyornHKgEVbtFUmoNlxoYthg=
-github.com/thinkgos/proc v0.0.0-20260823080946-f6a2012d0acd h1:q60Bx1KCCrRrIDS0q0AsMLwCOSnjGVfIxCQUw8TidME=
-github.com/thinkgos/proc v0.0.0-20260823080946-f6a2012d0acd/go.mod h1:fCgPt3UbtOzCiEcNabnGrsh0UgDoa2cKSAnTa+Ny+Po=
-github.com/thinkgos/proc-extra v0.0.0-20260831092759-088e677eb1e0 h1:60JdcinoaAwO9SGKvazl+9g/mos+GG+afez7vzdI3HQ=
-github.com/thinkgos/proc-extra v0.0.0-20260831092759-088e677eb1e0/go.mod h1:m3y9/uqksIJpC7x745PHYDcJjsqwggi02D3R872Z1n8=
+github.com/thinkgos/proc v0.0.0-20260827222246-13bf8c3d121e h1:G17s5PY7b/ein/P4cxVqwZ2KnjqefWjG1En9rbm+rn0=
+github.com/thinkgos/proc v0.0.0-20260827222246-13bf8c3d121e/go.mod h1:fCgPt3UbtOzCiEcNabnGrsh0UgDoa2cKSAnTa+Ny+Po=
+github.com/thinkgos/proc-extra v0.0.0-20260903010143-e79e06497c0d h1:Ii7cCb0Zak5dlQWUZU4TPy3d7dPvvbdGuw+tp9oT8iQ=
+github.com/thinkgos/proc-extra v0.0.0-20260903010143-e79e06497c0d/go.mod h1:jCQnN2VeOxyOda0wBL0dNyA1PXgbe1OxExekFHLdgA8=
 github.com/tjfoc/gmsm v1.3.2/go.mod h1:HaUcFuY0auTiaHB9MHFGCPx5IaLhTUd2atbCFBQXn9w=
 github.com/tjfoc/gmsm v1.4.1 h1:aMe1GlZb+0bLjn+cKTPEvvn9oUEBlJitaZiiBwsbgho=
 github.com/tjfoc/gmsm v1.4.1/go.mod h1:j4INPkHWMrhJb38G+J6W4Tw0AbuN8Thu3PbdVYhVcTE=
