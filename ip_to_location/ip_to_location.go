@@ -21,16 +21,16 @@ type IpLocation struct {
 	group      singleflight.Group
 }
 
-func (g *IpLocation) GetIp2Location(ip string) (string, error) {
-	location, ok := g.LocalCache.Get(ip)
+func (l *IpLocation) GetIp2Location(ip string) (string, error) {
+	location, ok := l.LocalCache.Get(ip)
 	if ok {
 		return location.(string), nil
 	}
-	location, err, _ := g.group.Do(ip, func() (any, error) {
-		for _, v := range g.Ils {
+	location, err, _ := l.group.Do(ip, func() (any, error) {
+		for _, v := range l.Ils {
 			localtion, err := v.GetIp2Location(ip)
 			if err == nil && localtion != "" {
-				g.LocalCache.SetDefault(ip, localtion)
+				l.LocalCache.SetDefault(ip, localtion)
 				return localtion, nil
 			}
 		}

@@ -10,12 +10,12 @@ type IpLocationViaGeoip2 struct {
 	Reader *geoip2.Reader
 }
 
-func (g *IpLocationViaGeoip2) GetIp2Location(ip string) (string, error) {
+func (l *IpLocationViaGeoip2) GetIp2Location(ip string) (string, error) {
 	ipAddr, err := netip.ParseAddr(ip)
 	if err != nil {
 		return "", err
 	}
-	record, err := g.Reader.City(ipAddr)
+	record, err := l.Reader.City(ipAddr)
 	if err != nil {
 		return "", err
 	}
