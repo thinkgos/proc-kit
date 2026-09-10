@@ -20,7 +20,7 @@ type TemplateMgr struct {
 // NewTemplateMgr creates a new TemplateMgr with the given root directory and tplIdMap.
 func NewTemplateMgr(root string, tplIdMap map[string]string) (*TemplateMgr, error) {
 	tpl := template.New("root")
-	filepath.WalkDir(root, func(path string, d fs.DirEntry, err error) error {
+	err := filepath.WalkDir(root, func(path string, d fs.DirEntry, err error) error {
 		if err != nil {
 			return err
 		}
@@ -41,6 +41,9 @@ func NewTemplateMgr(root string, tplIdMap map[string]string) (*TemplateMgr, erro
 		_, err = tpl.New(relPath).Parse(string(content))
 		return err
 	})
+	if err != nil {
+		return nil, err
+	}
 
 	if tplIdMap == nil {
 		tplIdMap = make(map[string]string)
