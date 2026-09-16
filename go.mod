@@ -10,8 +10,8 @@ require (
 	github.com/oschwald/geoip2-golang/v2 v2.4.0
 	github.com/redis/go-redis/v9 v9.22.0
 	github.com/thinkgos/logger v1.2.1
-	github.com/thinkgos/proc v0.0.0-20260910230056-3457c44b645e
-	github.com/thinkgos/proc-extra v0.0.0-20260909135319-4420a271e071
+	github.com/thinkgos/proc v0.0.0-20260916081735-78a972087df4
+	github.com/thinkgos/proc-extra v0.0.0-20260916082149-7c4f1f52556f
 	go.opentelemetry.io/otel v1.46.0
 	go.opentelemetry.io/otel/trace v1.46.0
 	golang.org/x/sync v0.23.0
@@ -44,8 +44,8 @@ require (
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.28.0 // indirect
-	golang.org/x/image v0.45.0 // indirect
-	golang.org/x/net v0.58.0 // indirect
+	golang.org/x/image v0.46.0 // indirect
+	golang.org/x/net v0.59.0 // indirect
 	golang.org/x/sys v0.48.0 // indirect
 	golang.org/x/time v0.16.0 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
