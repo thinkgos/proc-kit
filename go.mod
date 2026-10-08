@@ -8,7 +8,7 @@ require (
 	github.com/hibiken/asynq v0.26.0
 	github.com/mojocn/base64Captcha v1.3.8
 	github.com/oschwald/geoip2-golang/v2 v2.4.0
-	github.com/redis/go-redis/v9 v9.22.0
+	github.com/redis/go-redis/v9 v9.23.0
 	github.com/thinkgos/logger v1.2.1
 	github.com/thinkgos/proc v0.0.0-20260916081735-78a972087df4
 	github.com/thinkgos/proc-extra v0.0.0-20260916082149-7c4f1f52556f
@@ -41,7 +41,7 @@ require (
 	github.com/tjfoc/gmsm v1.4.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel/metric v1.46.0 // indirect
-	go.uber.org/atomic v1.11.0 // indirect
+	go.uber.org/atomic v1.12.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.28.0 // indirect
 	golang.org/x/image v0.46.0 // indirect
