@@ -12,8 +12,8 @@ require (
 	github.com/thinkgos/logger v1.2.1
 	github.com/thinkgos/proc v0.0.0-20260916081735-78a972087df4
 	github.com/thinkgos/proc-extra v0.0.0-20260916082149-7c4f1f52556f
-	go.opentelemetry.io/otel v1.46.0
-	go.opentelemetry.io/otel/trace v1.46.0
+	go.opentelemetry.io/otel v1.47.0
+	go.opentelemetry.io/otel/trace v1.47.0
 	golang.org/x/sync v0.23.0
 )
 
@@ -40,7 +40,8 @@ require (
 	github.com/spf13/cast v1.10.0 // indirect
 	github.com/tjfoc/gmsm v1.4.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/otel/metric v1.46.0 // indirect
+	go.opentelemetry.io/otel/log v1.47.0 // indirect
+	go.opentelemetry.io/otel/metric v1.47.0 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.28.0 // indirect
