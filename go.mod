@@ -14,7 +14,7 @@ require (
 	github.com/thinkgos/proc-extra v0.0.0-20260916082149-7c4f1f52556f
 	go.opentelemetry.io/otel v1.46.0
 	go.opentelemetry.io/otel/trace v1.46.0
-	golang.org/x/sync v0.23.0
+	golang.org/x/sync v0.24.0
 )
 
 require (
